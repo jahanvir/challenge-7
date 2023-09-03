@@ -1,13 +1,13 @@
 -- import: fastn
 
-;; -- fastn.package: jahanvir.github.io/challenge-7
+-- fastn.package: jahanvir.github.io/challenge-7
 ;; favicon: /-/jahanvir.github.io/challenge-7/favicon.ico
 
 ;; -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: jahanvir.github.io/challenge-7/FASTN/ds
+;; -- fastn.auto-import: jahanvir.github.io/challenge-7/FASTN/ds
 -- fastn.auto-import: jahanvir.github.io/challenge-7/assets
 ;; -- fastn.auto-import: doc-site
 
