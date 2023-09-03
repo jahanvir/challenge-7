@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: jahanvir.github.io/challenge-7
+;; -- fastn.package: jahanvir.github.io/challenge-7
 ;; favicon: /-/jahanvir.github.io/challenge-7/favicon.ico
 
 ;; -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
