@@ -1,40 +1,155 @@
--- ds.page: Welcome to doc-site
+-- ftd.image-src just-light: https://sportshub.cbsistatic.com/i/2021/03/18/6eab5e5f-ca8c-42d1-862d-2df903b5309c/one-piece-wano-luffy-cosplay-1252700.jpg?width=1200
+
+-- ftd.column:
+background.solid: #EFDDFD
+width.fixed.px: 690
+;; align-content: center
+height.fixed.px: 690
+padding-horizontal.px: 30
+padding-vertical.px: 20
+;; height: fill-container
+;; width: fill-container
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.row: 
+spacing.fixed.px: 20
+margin.px: 30
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.text: Home
+link: /
+style: bold, underline
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: Blog
+link: /pages/blog
+style: bold, underline
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: Contact
+link: /pages/contact
+style: bold, underline
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text: Resume
+link: /pages/resume
+style: bold, underline
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: Talks
+link: /pages/talks
+style: bold, underline
 
--- end: ds.page
+-- ftd.text: About
+link: /pages/about
+style: bold, underline
+
+-- ftd.text: Essays
+link: /pages/essays
+style: bold, underline
+
+-- ftd.text: Documentation
+link: /pages/documentation
+style: bold, underline
+
+-- end: ftd.row
+
+-- ftd.row: 
+
+-- ftd.column:
+background.solid: #EFDDFD
+width.fixed.px: 260
+;; align-content: center
+height.fixed.px: 590
+padding-horizontal.px: 30
+padding-vertical.px: 20
+;; margin.px: 30
+
+-- ftd.image:
+src: $just-light
+width.fixed.px: 200
+height.fixed.px: 200
+
+-- ftd.text: Contact
+link: /pages/contact 
+margin-vertical.px: 10   
+style: bold, underline
+
+
+-- end: ftd.column
+
+-- ftd.column:
+background.solid: #EFDDFD
+width.fixed.px: 350
+;; align-content: center
+height.fixed.px: 590
+padding-horizontal.px: 30
+padding-vertical.px: 20
+;; margin.px: 30
+
+-- ftd.text: John Doe
+role: $inherited.types.copy-large
+border-bottom-width.px: 8
+border-style: double
+margin-bottom.px: 20
+
+-- ftd.column:
+
+-- ftd.text: \### Skills
+role: $inherited.types.copy-regular
+;; margin-bottom.px: 10
+style: bold
+;; color: 
+
+-- ftd.text: - Go, Lua, Haskell, fastn
+-- ftd.text: - Docker (deployment, development & more)
+-- ftd.text: - Mashup of data
+-- ftd.text: - Kubernetes
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.text: \#### Highlighted Projects
+role: $inherited.types.copy-regular
+;; margin-bottom.px: 10
+style: bold
+;; color: 
+
+-- ftd.text: - Portfolio
+link: /
+style: underline
+-- ftd.text: - Social Media App
+link: /
+style: underline
+-- ftd.text: - Game App
+link: /
+style: underline
+-- ftd.text: - E-commerce App
+link: /
+style: underline
+
+-- end: ftd.column
+
+
+-- ftd.column:
+
+-- ftd.text: \#### Quick Links
+role: $inherited.types.copy-regular
+;; margin-bottom.px: 1
+;; padding-vertical.px: 2
+style: bold
+;; color: 
+
+-- ftd.text: - Github
+link: /
+style: underline
+-- ftd.text: - Discord
+link: /
+style: underline
+
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
