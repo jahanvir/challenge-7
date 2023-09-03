@@ -1,18 +1,27 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: jahanvir.github.io/challenge-7
+;; favicon: /-/jahanvir.github.io/challenge-7/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+;; -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
--- fastn.auto-import: doc-site
+-- fastn.auto-import: jahanvir.github.io/challenge-7/FASTN/ds
+-- fastn.auto-import: jahanvir.github.io/challenge-7/assets
+;; -- fastn.auto-import: doc-site
 
--- fastn.sitemap:
+;; -- fastn.sitemap:
 
-# Home: index.html
+;; # Home: /
+;; # Blog: /pages/blog
+;; # Contact: /pages/contact
+;; # Resume: /pages/resume
+;; # Talks: /pages/talks
+;; # About: /pages/about
+;; # Essays: /pages/essays
+;; # Documentation: /pages/documentation
 
-- Right Sidebar Sample: /sidebar/
+
+
+;; - Right Sidebar Sample: /sidebar/
